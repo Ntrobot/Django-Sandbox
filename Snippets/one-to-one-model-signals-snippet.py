@@ -4,7 +4,7 @@
 ## Variables to be changed: Profile
 
 ### signals.py ###
-# This will give new User object a one-to-one relationship to the *Profile* classes
+# This will give new User object a one-to-one relationship to the *Profile* classes automatically
 
 # A signal is fired after a models object is created
 from django.db.models.signals import post_save
